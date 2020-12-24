@@ -1,8 +1,5 @@
 # nsmcemotionanalysis
 
-# friendsemotionanalysis
-
-
 <프로젝트 목적>
  - 2020 년 가을학기 임희석 교수님 수업(디지털 금융공학 위한 자연언어처리기술)의
    NSMC(한글 영화리뷰) 감정 분석 모델 구축
@@ -47,13 +44,11 @@
  - 제출 Data 예측
  
  # 사용데이터
-   - friends_dev.json
-   - friends_test.json
-   - friends_train.json
-   - en_data.csv
+   - https://github.com/e9t/nsmc.git(네이버 영화리뷰 감정분석 데이터)
+   - ko_data.csv
   # 실행 진행 과정
-   - soogonKIM_2019516010_friends.ipynb을 구글 colab에서 GPU 사용해 실행하였고
-   - 총 3Epoch 를 실행해서 Epoch 당 12분 정도 소요 되었으며
-     (Epoch 를 3~6회 정도로 조정해 수행해 보았으나, 큰 개선은 없어 3Epoch로 최종결과물을 도출 하였습니다)
-   - Test accuracy는 62.5% ~ 64.5% 정도가 나왔습니다.
+   - soogonKIM_2019516010_nsmc_emotion_analysis을 구글 colab에서 GPU 사용해 실행하였고
+   - 총 3Epoch 를 실행해서 Epoch 당 20분 정도 소요 되었으며
+     (Epoch 를 3~6회 정도로 조정해 수행해 보았으나, 큰 개선은 없어 4Epoch로 최종결과물을 도출 하였습니다)
+   - Test accuracy는 87% 정도가 나왔습니다.
    - 상기 사용데이터를 불러와 예측을 수행 하였습니다.
