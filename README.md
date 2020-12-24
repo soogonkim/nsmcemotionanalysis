@@ -28,11 +28,6 @@
  - 훈련셋과 검증셋으로 분리
  - Batch_size = 32
 
-<모델링>
- - RoBERTa Model 활용 진행
- - Optimizer adamw 설정
- - BERT-Large 정확도 향상 한계 존재 RoBERTa 모델 통해 정확도 향상
-
 <Training 및 Validation>
  - Epoch 변경해 가며 반복
  - 제출 Data 예측
@@ -43,6 +38,6 @@
   # 실행 진행 과정
    - soogonKIM_2019516010_nsmc_emotion_analysis을 구글 colab에서 GPU를 사용해 실행하였고
    - 총 3Epoch 를 실행해서 Epoch 당 20분 정도 소요 되었으며
-     (Epoch 를 3~6회 정도로 조정해 수행해 보았으나, 큰 개선은 없어 4Epoch로 최종결과물을 도출 하였습니다)
+     (Epoch 를 1~4회 정도로 조정해 수행해 보았으나, 큰 개선은 없어 3Epoch로 최종결과물을 도출 하였습니다)
    - Test accuracy는 87% 정도가 나왔습니다.
    - 상기 사용데이터를 불러와 예측을 수행 하였습니다.
